@@ -5,18 +5,18 @@ This tool enhances SaaSquatch Leads by enabling user-driven filtering (by catego
 
 ## Setup Instructions
 1. **Set Up a Virtual Environment** (Optional but Recommended):
-   ```
+   
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+   
 2. **Install Dependencies**:
-   ```
+   
    pip install -r requirements.txt
-   ```
+   
 3. **Run the App**:
-   ```
+   
    streamlit run app.py
-   ```
+   
    Open `http://localhost:8501` in your browser.
 4. **Upload a Dataset**:
    - Use the provided `sample_leads_input.csv` or your own CSV file with columns like `name`, `category_list`, `city`, `funding_total_usd`, `funding_rounds`, `founded_year`, `seed`, `venture`, `angel`.
@@ -33,4 +33,4 @@ The `sample_leads_input.csv` includes columns: `name`, `category_list`, `city`, 
 
 ## Notes
 - The app processes data securely and does not store user uploads.
-- For issues, contact [your email].
+- For issues, contact [nishanthnishanth6524@gmail.com].
